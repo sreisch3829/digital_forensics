@@ -1,0 +1,11 @@
+The process to recover a file is to first look at the headers to see what
+files are around, and which one you want to do first. For example, we'll
+use a PNG. After you know that you want a PNG, you will want to use the code
+xxd (filename) | grep PNG, which will show you the numbers for the header of
+the PNG. Then, you look for the tail, which is done by the code xxd (filename)
+| grep IEND. Taking those two numbers, put them each through
+echo "ibase=16; (the number)" and getting a new number. Then we subtract
+the numbers.  Then we use the code:
+dd if=(filename) skip=(head ibase number) bs=1 count=(number from subtraction)
+of=(new file name).png.
+
