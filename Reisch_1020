@@ -1,0 +1,12 @@
+A disk image is a compacted file containing information within a directory.
+
+You make a disk image with cfdisk, creating space for it first. Then, you
+transfer the files you want into the disk image, and then delete the images.
+
+A disk partition is the space removed for a disk image to be made.
+
+There is usually one, but you can make it have more.
+
+It will reduce the total space and reduce preformance.
+
+You have to change the space with cfdisk.
