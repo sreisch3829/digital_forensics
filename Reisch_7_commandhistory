@@ -1,0 +1,383 @@
+1  ls
+    2  tree
+    3  ls -laiRtu
+    4  find .-type f -exec file{}\;>~/evid/filetype.list
+    5  tree Desktop
+    6  pwd
+    7  aptitude update
+    8  apt-get update
+    9  apt-get install
+   10  aptitude
+   11  apt-get install aptitude
+   12  aptitude
+   13  htop
+   14  apt-get install htop
+   15  htop
+   16  apt-cashe terminal
+   17  shutdown -h now
+   18  apt-get update
+   19  apt-get upgrade -y
+   20  apt-get dist-upgrade -y
+   21  apt-get install linux-headers-$(uname -r) -y
+   22  apt-get update
+   23  apt-get install linux-headers-$(uname -r) -y
+   24  shutdown -r now
+   25  apt-get install linux-headers-$(uname -r) -y
+   26  scp sreisch@10.4.27.[25]:/usr/share/digitalforensics/images.practical/floppy.dd /root/
+   27  scp root@10.4.27.[25]:/usr/share/digitalforensics/images.practical/floppy.dd /root/
+   28  scp root@10.4.27.25:/usr/share/digitalforensics/images.practical/floppy.dd /root/
+   29  scp sreisch@10.4.27.25:/usr/share/digitalforensics/images.practical/floppy.dd /root/
+   30  scp sreisch@10.4.27.25:/usr/share/digitalforensics/images/practical.floppy.dd /root/
+   31  shutdown -r now
+   32  uname -a
+   33  cp media/cdrom/VBoxLinuxAdditions.run /root/Desktop/
+   34  cp /media/cdrom/VBoxLinuxAdditions.run /root/Desktop/
+   35  cd /root/Desktop/
+   36  chmod 755 /root/VBoxLinuxAdditions.run
+   37  ./VBoxLinuxAdditions.run
+   38  reboot
+   39  ls
+   40  ln -s /media/SharedFolder ~/Desktop/
+   41  shutdown -r now
+   42  grep "linux" /home/
+   43  sha1sum
+   44  grep "practical"
+   45  ls -rt
+   46  ls -rt /media/
+   47  mkdir -p /mnt/analysis
+   48  cp /media/sf_images
+   49  rm /mnt/analysis/newfloppy.img
+   50  mkdir images
+   51  cp /downloads/practical.floppy.dd
+   52  cd images
+   53  ls
+   54  ls /media/
+   55  sha1sum newfloppy.img
+   56  ls
+   57  cd Downloads
+   58  ls
+   59  sha1sum practical.floppy.dd
+   60  mkdir -p /root/evid/
+   61  mkdir -p /mnt/analysis/
+   62  mount -t ext2 -o ro,loop practical.floppy.dd /mnt/analysis/
+   63  cd media/sf_images
+   64  tail -t ext2 -o ro,loop practical.floppy.dd /mnt/analysis/
+   65  sha1sum /mnt/analysis/ > /root/evid/sha.disk1
+   66  cd /mnt/analysis/
+   67  mkdir ~/evid
+   68  find .-type f -exec sha1sum {} |; > ~/evid/sha.filelist
+   69  find .-type f -exec sha1sum {} \; > ~/evid/sha.filelist
+   70  ls -al
+   71  ls
+   72  cd ..
+   73  cd ~
+   74  ls -al
+   75  ls -alR
+   76  ls -alR | less
+   77  ls /media/
+   78  cd /mnt/analysis/
+   79  ls
+   80  clear
+   81  cd downloads
+   82  cd
+   83  cd evid/
+   84  pico searchterms.txt
+   85  grep -abif searchterms.txt /media/sf_images/newfloppy.img 
+   86  pico searchterms.txt
+   87  grep -abif searchterms.txt /media/sf_images/newfloppy.img 
+   88  grep -abif searchterms.txt /media/sf_images/newfloppy.img > incriminating.txt
+   89  cat imcriminating.txt
+   90  cat incriminating.txt
+   91  mount -o ro,noexec /media/sf_images/newfloppy.img /mnt/analysis/
+   92  sha1sum /mnt/analysis/ > /root/evid/sha.disk1
+   93  cd
+   94  cd evid/
+   95  cat incriminating.txt
+   96  xxd -s 6399070 /media/sf_images/newfloppy.img 
+   97  xxd -s 6399070 /media/sf_images/newfloppy.img | less
+   98  man grep
+   99  man file
+  100  man mount
+  101  cat /dev/zero |xxd
+  102  ls -rt
+  103  du -h flo*
+  104  convert -background lightblue -fill blue -font Candice -pointsize 72 label:Stormy image.gif
+  105  convert -background lightblue -fill blue -pointsize 48 label:"hello" "itsme.png"
+  106  ls /mnt/small
+  107  ls
+  108  cd secretmessage
+  109  ls
+  110  cd
+  111  cd /mnt/small
+  112  ls
+  113  cd
+  114  mount reisch_floppy.img /mnt/small/
+  115  rm /mnt/small/*png
+  116  ls /mnt/small/
+  117  umount /mnt/small
+  118  pico somefile
+  119  head somefile
+  120  head -n 5
+  121  head -n 5 somefile
+  122  head somefile
+  123  tail somefile
+  124  tail -n 3
+  125  tail -n 3 somefile
+  126  ls
+  127  cd secretmessage
+  128  ls
+  129  xxd test.png |tail
+  130  xxd 8.png |tail
+  131  xxd 8.png |head
+  132  xxd 7.png |head
+  133  xxd 6.png |head
+  134  xxd 6.png |tail
+  135  xxd 7.png |tail
+  136  xxd 8.png |tail
+  137  cd
+  138  ls
+  139  cd secretmessage
+  140  pico cantsleeplove
+  141  history
+  142  cd Downloads
+  143  ls
+  144  dd if=Carrera_floppy.img skip=9611264 bs=1 count=20240 of=carrera3.png
+  145  display carrera3.png
+  146  dd if=Carrera_floppy.img skip=9611264 bs=1 count=20240 of=carrera3.jpg
+  147  display carrera3.png
+  148  display pic1.jpg
+  149  display pic2.jpg
+  150  display pic3.jpg
+  151  mv pic1.jpg renard1.jpg
+  152  ls
+  153  mv pic2.jpg renard2.jpg
+  154  mv pic3.jpg
+  155  mv pic3.jpg renard3.jpg
+  156  ls
+  157  xxd Doria_floppy.img | grep PNG
+  158  xxd Doria_floppy.img | grep I
+  159  xxd Doria_floppy.img | grep IEND
+  160  echo "ibase=16; 00840C00
+  161  echo "ibase=16; 00840C00"|bc
+  162  echo "ibase=16; 00841300"|bc
+  163  echo "ibase=16; 00841000"|bc
+  164  echo "ibase=16; 008416F0"|bc
+  165  echo "ibase=16; 00841400"|bc
+  166  echo "ibase=16; 00841EF0"|bc
+  167  cd Downloads
+  168  echo "8655616 - 8653824"|bc
+  169  echo "8656624 - 8654848"|bc
+  170  echo "8658672 - 8655872"|bc
+  171  dd if=Doria_floppy.img skip=8653824 bs=1 count=1792 of=doria1.png
+  172  dd if=Doria_floppy.img skip=8654848 bs=1 count=1776 of=doria2.png
+  173  dd if=Doria_floppy.img skip=8655872 bs=1 count=2800 of=doria3.png
+  174  ls
+  175  display doria1.png
+  176  display doria2.png
+  177  display doria3.png
+  178  HISTORY
+  179  history
+  180  ls
+  181  mkdir secretfile
+  182  ls
+  183  cd secretfile
+  184  man catdoc
+  185  cd ..
+  186  ls
+  187  pico somefile
+  188  cat somefile
+  189  pico somefile
+  190  history
+  191  ls
+  192  mv somefile doc1
+  193  ls
+  194  pico doc2
+  195  pico doc3
+  196  pico doc4
+  197  cat doc2
+  198  ls
+  199  cat doc1
+  200  cat doc2
+  201  cat doc3
+  202  cat doc4
+  203  ls
+  204  mv doc1 /home/secretfile/
+  205  ls
+  206  cd secretfile
+  207  ls
+  208  cat doc4
+  209  pico doc5
+  210  grep "pay"
+  211  history
+  212  cd secretfile
+  213  ls
+  214  doc1 | grep "pay"
+  215  grep "pay" doc3
+  216  grep "pay" doc1
+  217  grep "pay" doc2
+  218  grep "pay" doc4
+  219  grep "pay" doc5
+  220  pico doc6
+  221  pico doc7
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd evid
+  226  ls
+  227  cat incriminating.txt
+  228  cat searchterms.txt 
+  229  ls
+  230  cd secretfile
+  231  ls
+  232  cat doc1
+  233  cd
+  234  ls
+  235  cd Downloads
+  236  ls
+  237  cd Downloads
+  238  ls
+  239  mv altdoc.docx /home/secretfile/
+  240  mv altdoc.docx /home/
+  241  cd
+  242  ls
+  243  cd Downloads
+  244  ls
+  245  cd
+  246  cd secretfile
+  247  ls
+  248  mv altdoc.docx doc1.docx
+  249  ls
+  250  rm doc1
+  251  ls
+  252  cat doc2
+  253  cat doc3
+  254  cat doc4
+  255  cat doc5
+  256  cat doc6
+  257  ls
+  258  mv Untitleddocument.docx doc2.docx
+  259  ls
+  260  rm doc2
+  261  rm doc3
+  262  rm doc4
+  263  rm doc5
+  264  rm doc6
+  265  ls
+  266  cat doc7
+  267  ls
+  268  rm doc7
+  269  ls
+  270  xxd doc1.docx |head
+  271  xxd doc1.docx |tail
+  272  xxd doc1.docx |grep PK
+  273  xxd doc1.docx |grep 504B
+  274  xxd doc1.docx |grep 504b
+  275  man beep
+  276  beep -f 470 -l 250
+  277  rig
+  278  history
+  279  apt-get update
+  280  rig
+  281  apt -get install rig
+  282  apt-get install rig
+  283  apt-get install beep
+  284  rig
+  285  cd ..
+  286  beep -f 470 -l 250
+  287  beep -f 800 -l 250
+  288  beep -f 470 -l 250
+  289  cd secretfile
+  290  beep -f 470 -l 250
+  291  ls
+  292  cd secretfile
+  293  ls
+  294  history
+  295  convert -background lightblue -fill blue -pointsize 48 label:"hello" "itsme.png"
+  296  ls
+  297  display itsme.png
+  298  convert -background seagreen -fill mediumseagreen -pointsize 48 label:"1 dollar" "forMissTake.png"
+  299  ls
+  300  display forMisstake.png
+  301  rm forMissTake.png
+  302  rm itsme.png
+  303  convert -background SeaGreen -fill MediumSeaGreen -pointsize 48 label:"10,000 dollars" "image1.png"
+  304  ls
+  305  display image1.png
+  306  convert -background lime -fill OrangeRed2 -pointsize 24 label:"DON'T RUN" "image1.png"
+  307  convert -background lime -fill OrangeRed2 -pointsize 24 label:"PAY IT AND WE LEAVE" "image1.png"
+  308  convert -background lime -fill OrangeRed2 -pointsize 24 label:"PAY IT AND WE LEAVE" "image2.png"
+  309  convert -background lime -fill OrangeRed2 -pointsize 24 label:"DON'T RUN" "image1.png"
+  310  convert -background lime -fill OrangeRed2 -pointsize 24 label:"LAST CHANCE MISS TAKE" "image3.png"
+  311  convert -background lime -fill OrangeRed2 -pointsize 24 label:"WE'RE COMING FOR YOU" "image4.png"
+  312  ls
+  313  cat doc7.docx
+  314  ls
+  315  convert -background lime -fill OrangeRed2 -pointsize 24 label:"GOODBYE" "image5.png"
+  316  display image1.png
+  317  ls
+  318  convert -background SeaGreen -fill blue -pointsize 24 label:"HACKING" "DATADOES.png"
+  319  display DATADOES.png
+  320  convert -background lightblue -fill blue -pointsize 64 label:"HACKING" "DATADOES2.png"
+  321  display DATADOES2.png
+  322  ls
+  323  rm DATADOES.png
+  324  rm DATADOES2.png 
+  325  ls
+  326  cd ..
+  327  man dd
+  328  man fdisk
+  329  cd /media/
+  330  ls
+  331  cd ..
+  332  cd /mnt/
+  333  ls
+  334  mkdir stormyfile
+  335  cd ..
+  336  dd if=/dev/zero bs=1M count=400 >> test.img
+  337  ls
+  338  du test.img
+  339  fdisk -l
+  340  cfdisk test.img
+  341  ext
+  342  mkfs.ext4 test.img
+  343  mount test.img /mnt/stormyfile/
+  344  cd /mnt/stormyfile/
+  345  ls
+  346  cd secretfile
+  347  ls
+  348  *.dox /mnt/stormyfile/
+  349  cp *.dox /mnt/stormyfile/
+  350  cp *.docx /mnt/stormyfile/
+  351  cp *.png /mnt/stormyfile/
+  352  cd /mnt/stormyfile/
+  353  ls
+  354  history
+  355  cd Downloads
+  356  ls
+  357  history
+  358  xxd lll_osdf.img | grep PNG
+  359  xxd lll_osdf.img | grep JFIF
+  360  xxd lll_osdf.img | grep ffd9
+  361  echo "ibase=16; 00009800"|bc
+  362  echo "ibase=16; 0000B800"|bc
+  363  echo "ibase=16; 0000b4c0"|bc
+  364  echo "ibase=16; 0000b4C0"|bc
+  365  echo "ibase=16; 0000B4C0"|bc
+  366  echo "ibase=16; 0000EC60"|bc
+  367  echo "46272 - 38912"|bc
+  368  echo "60512 - 47104"|bc
+  369  dd if=lll_osdf.img skip=38912 bs=1 count=7360 of=davis1.png
+  370  display davis1.png 
+  371  dd if=lll_osdf.img skip=47104 bs=1 count=13408 of=davis2.png
+  372  display davis2.png
+  373  ls
+  374  sha1sum practical.floppy.dd 
+  375  sha1sum /usr/share/digitalforensics/images/practical.floppy.dd
+  376  file practical.floppy.dd 
+  377  cat /dev/zero |xxd
+  378  ls -laiRtu
+  379  pwd
+  380  ls
+  381  history
+  382  history < Reisch_7_commandhistory_102016.txt
+  383  history > Reisch_7_commandhistory_102016.txt
