@@ -1,0 +1,57 @@
+NOTES FOR SELF:
+manypartitions0.disk1
+OFFSET: 512 * 2048 = 1048576	
+
+manypartitions0.disk2
+OFFSET: 512 * 6144 = 3145728
+
+manypartitions0.disk3
+OFFSET: 512 * 10240 = 5242880
+
+manypartitions0.disk4
+OFFSET: 512 * 14336 = 7340032	
+
+manypartitions1.disk1
+OFFSET: 512 * 2048 = 1048576	
+
+manypartitions1.disk2
+OFFSET: 512 * 6144 = 3145728
+
+manypartitions1.disk3
+OFFSET: 512 * 10240 = 5242880
+
+manypartitions1.disk4
+OFFSET: 512 * 14336 = 7340032	
+
+manypartitions2.disk1
+OFFSET: 512 * 2048 = 1048576	
+
+manypartitions2.disk2
+OFFSET: 512 * 6144 = 3145728
+
+manypartitions2.disk3
+OFFSET: 512 * 10240 = 5242880
+
+manypartitions2.disk4
+OFFSET: 512 * 14336 = 7340032	
+
+manypartitions3.disk1
+OFFSET: 512 * 2048 = 1048576	
+
+manypartitions3.disk2
+OFFSET: 512 * 6144 = 3145728
+
+manypartitions3.disk3
+OFFSET: 512 * 10240 = 5242880
+
+manypartitions3.disk4
+OFFSET: 512 * 14336 = 7340032	
+
+manypartitions4.disk1
+OFFSET: 512 * 2048 = 1048576	
+
+manypartitions4.disk2
+OFFSET: 512 * 8192 = 4194304
+
+manypartitions4.disk3
+OFFSET: 512 * 14336 = 7340032
