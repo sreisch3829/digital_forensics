@@ -1,0 +1,18 @@
+NOTES:
+Message:
+(1)The journey begins 
+(2) knowing is half the battle 
+(3) grep is great 
+(4) consider utopia 
+(5) sed -e's/manypartitions.disk..[]*//g"|grep -o "^[^ ]*" 
+(6) for part in $(cat partition.txt); do echo "$part*512"|bc >> beginhere.txt 
+(7) Are you winning? 
+(8) so many mysteries so little time
+(9) Keep going (Mr. Vidal)
+(10) You can do it! (Ms. Pape)
+(11) Don't give up! (Mr. G)
+(12) No slacking! (Ms. Dagget)
+(13) You're a winner! (Ms. Grant)
+(14) 
+(15) 
+(16)
