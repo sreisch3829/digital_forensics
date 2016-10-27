@@ -1,50 +1,50 @@
 NOTES FOR SELF:
-manypartitions0.disk1
+manypartitions0.disk1 (1)
 OFFSET: 512 * 2048 = 1048576	
 
-manypartitions0.disk2
+manypartitions0.disk2 (2)
 OFFSET: 512 * 6144 = 3145728
 
-manypartitions0.disk3
+manypartitions0.disk3 (3)
 OFFSET: 512 * 10240 = 5242880
 
-manypartitions0.disk4
+manypartitions0.disk4 (4)
 OFFSET: 512 * 14336 = 7340032	
 
-manypartitions1.disk1
+manypartitions1.disk1 (5)
 OFFSET: 512 * 2048 = 1048576	
 
-manypartitions1.disk2
+manypartitions1.disk2 (6)
 OFFSET: 512 * 6144 = 3145728
 
-manypartitions1.disk3
+manypartitions1.disk3 (7)
 OFFSET: 512 * 10240 = 5242880
 
-manypartitions1.disk4
+manypartitions1.disk4 (8)
 OFFSET: 512 * 14336 = 7340032	
 
-manypartitions2.disk1
+manypartitions2.disk1 (9)
 OFFSET: 512 * 2048 = 1048576	
 
-manypartitions2.disk2
+manypartitions2.disk2 (10)
 OFFSET: 512 * 6144 = 3145728
 
-manypartitions2.disk3
+manypartitions2.disk3 (11)
 OFFSET: 512 * 10240 = 5242880
 
-manypartitions2.disk4
+manypartitions2.disk4 (12)
 OFFSET: 512 * 14336 = 7340032	
 
-manypartitions3.disk1
+manypartitions3.disk1 (13)
 OFFSET: 512 * 2048 = 1048576	
 
-manypartitions3.disk2
+manypartitions3.disk2 (14)
 OFFSET: 512 * 6144 = 3145728
 
-manypartitions3.disk3
+manypartitions3.disk3 (15)
 OFFSET: 512 * 10240 = 5242880
 
-manypartitions3.disk4
+manypartitions3.disk4 (16)
 OFFSET: 512 * 14336 = 7340032	
 
 manypartitions4.disk1
