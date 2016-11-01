@@ -8,7 +8,7 @@ WEP, WPA, and WPA2 are all security systems for the wifi. The differences are fo
 
 From least secure to most is WEP -> WPA -> WPA2
 
-A utility in programs to decrypt WEP encryption.  How does it work?
+A utility in programs to decrypt WEP encryption. 
 
 Kismet is a network detector and an intrusion detection system. 
 Kismet is supposed to be used for wireless reconnaissance or for a wireless intrusion detection system.
