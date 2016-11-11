@@ -2,6 +2,24 @@ iwlist ra0 scan
 With this command, I saw
 
 iwconfig ra0 channel 6
-
+With this command, I saw
 
 iwspy ra0
+With this command, I saw
+
+wget '(the link)'
+With this command, I was able to download
+
+mv (rest of commnad)
+Those commands accomplished
+
+It's different from iwlist because
+
+dumpcap -i ra0 -I -L
+With this command, I saw
+
+tshark -i ra0 -I -L
+With this command, I saw
+
+wireshark -i ra0 -I -L
+With this command, I saw
