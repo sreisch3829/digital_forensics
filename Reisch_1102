@@ -1,1 +1,7 @@
+iwlist ra0 scan
+With this command, I saw
 
+iwconfig ra0 channel 6
+
+
+iwspy ra0
