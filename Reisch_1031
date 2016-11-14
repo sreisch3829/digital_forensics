@@ -1,16 +1,16 @@
-The bandwidth of wifi is usually 40 MHz.
+1. The bandwidth of wifi is usually 40 MHz.
 
-The channels that are legal and available are 1-11.
+2. The channels that are legal and available are 1-11.
 
-The channels people commonly use are 1, 6, and 11, with 6 being the most common.
+3. The channels people commonly use are 1, 6, and 11, with 6 being the most common.
 
-WEP, WPA, and WPA2 are all security systems for the wifi. The differences are for when they were made and how secure they are.
+4. WEP, WPA, and WPA2 are all security systems for the wifi. The differences are for when they were made and how secure they are.
 
-From least secure to most is WEP -> WPA -> WPA2
+5. From least secure to most is WEP -> WPA -> WPA2
 
-Airsnort is a utility in programs to decrypt WEP encryption. 
+6. Airsnort is a utility in programs to decrypt WEP encryption. 
 
-Kismet is a network detector and an intrusion detection system. 
+7. Kismet is a network detector and an intrusion detection system. 
 Kismet is supposed to be used for wireless reconnaissance or for a wireless intrusion detection system.
 
-Karma is a secure personal wifi, or a hotspot maker.
+8. Karma is a secure personal wifi, or a hotspot maker.
