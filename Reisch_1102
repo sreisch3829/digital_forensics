@@ -1,19 +1,19 @@
 iwlist ra0 scan
-With this command, I saw
+With this command, I saw the device show up with various information about the device.
 
 iwconfig ra0 channel 6
-With this command, I saw
+With this command, I saw that it was using channel 6 and that it could change.
 
 iwspy ra0
-With this command, I saw
+With this command, I saw the link quality for the channels.
 
 wget '(the link)'
-With this command, I was able to download
+With this command, I was able to download the link.
 
 mv (rest of commnad)
-Those commands accomplished
+Those commands accomplished to move the file, rename it, and install the file.
 
-It's different from iwlist because
+It's different from iwlist because it automatically installs the file as opposed to only looking at the information.
 
 dumpcap -i ra0 -I -L
 With this command, I saw
